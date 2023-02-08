@@ -5,17 +5,26 @@
     padding: 0;
     border: 0;
 }
-
 body{
     min-height: 100%;
     font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     color: #252525;
 }
 a {
     font-weight: bold;
     color: inherit;
-    cursor: pointer
+    cursor: pointer; 
+}
+h1 , h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(44, 9, 59);
+}
+p {
+    font-family: Roboto, sans-serif;
+    
     
 }
 .header-background-image{
@@ -26,8 +35,6 @@ a {
     position: relative;
     overflow: hidden;
 }
-
-
 nav {
         display: flex;
         padding: 2% 4%;
@@ -76,7 +83,7 @@ nav img {
 }
 .header-text p {
     font-size: 25px;
-    font-weight: bold;
+    font-style: italic;
     margin-top: 80px;
 }
 .contact-btn {
@@ -99,7 +106,11 @@ nav img {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 60px;
+}
+.customer-feedback p {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
 }
 .feedback {
     display: flex;
