@@ -129,5 +129,32 @@ nav img {
 .feedback-entry:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
-
-
+.feedback-entry img {
+    margin-top: 20px;
+    width: 60%
+}
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+}
+.footer-background {
+    background-color: #633c6fee;
+    padding: 5% 0%;
+    
+}
+.footer-text h3, h4 {
+    color:rgb(209, 209, 209);
+    font-weight: 700;
+}
+.social-media {
+    text-align: center;
+    color: #fff3f3;
+    font-size: 40px;
+    list-style: none;
+}
+.social-media ul li {
+    list-style-type: none;
+}
