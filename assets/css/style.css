@@ -7,6 +7,7 @@
 }
 
 body{
+    min-height: 100%;
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #252525;
@@ -59,9 +60,6 @@ nav img {
     border-bottom: 1px solid rgb(85, 10, 117);
 }
 
-
-    
-
 .navigation-links ul li a {
     font-size: 22px;
     text-decoration: none;
@@ -69,8 +67,7 @@ nav img {
 .header-text {
     text-align: center;
     margin-top: 120px;
-    
-    
+      
 }
 .header-text h1 {
     font-size: 50px;
@@ -98,5 +95,28 @@ nav img {
     background: rgb(192, 161, 206);
 }
 
+.customer-feedback {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.feedback-entry {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.feedback-entry:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
 
 
