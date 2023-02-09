@@ -99,11 +99,11 @@ nav img {
     text-decoration: none;
     color: rgb(44, 9, 59);
     border: 1px solid rgb(85, 10, 117);
-    padding: 5px 15px;
+    padding: 8px 15px;
     position: relative;
     margin-top: 50px;
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
 }
 .contact-btn:hover {
     border: 1px solid rgb(85, 10, 117);
@@ -162,6 +162,7 @@ nav img {
     color: #fff3f3;
     font-size: 40px;
     list-style: none;
+    margin: 8px;
 }
 .social-media ul li {
     list-style-type: none;
@@ -194,41 +195,3 @@ nav img {
     margin-bottom: 17px;
     outline: none;
 }
-.contact-form button {
-    border: 2px solid #ccc;
-    background-color: #bc7cb3;
-    padding: 3px;
-}
-
-
-/*
-.contact-us {
-    margin: auto;
-}
-.contact-col {
-    flex-basis: 48%;
-    margin-bottom: 30px;
-}
-
-.contact-col input, .contact-col textarea {
-width: 100%;
-padding: 15px;
-margin-bottom: 17px;
-outline: none;
-border: 1px solid #ccc;
-}
-
-.contact-us {
-    clear: left;
-    height: 300px;
-}
-.contact-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding:30px;
-    }
-    */
