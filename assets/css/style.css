@@ -24,8 +24,6 @@ h1 , h2 {
 }
 p {
     font-family: Roboto, sans-serif;
-    
-    
 }
 .header-background-image{
     background-image: url(../images/header-background-image.jpeg);
@@ -36,7 +34,7 @@ p {
     overflow: hidden;
 }
 .contact-header-background-image {
-    background: url(../images/contact-background-image.jpeg);
+    background: url(../images/contact-background-image2.jpeg);
     background-size: cover;
     min-height: 100vh;
     background-position: center;
@@ -55,7 +53,6 @@ nav img {
 }
 .navigation-links {
     text-align: right;
-     
 }
 .navigation-links ul li {
     list-style-type: none;
@@ -74,7 +71,6 @@ nav img {
 .active {
     border-bottom: 1px solid rgb(85, 10, 117);
 }
-
 .navigation-links ul li a {
     font-size: 22px;
     text-decoration: none;
@@ -87,7 +83,6 @@ nav img {
 .header-text h1 {
     font-size: 50px;
     text-align: center;
-
 }
 .header-text p {
     font-size: 25px;
@@ -109,7 +104,6 @@ nav img {
     border: 1px solid rgb(85, 10, 117);
     background: rgb(192, 161, 206);
 }
-
 .customer-feedback {
     width: 80%;
     margin: auto;
@@ -138,20 +132,21 @@ nav img {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 .feedback-entry img {
-    margin-top: 20px;
-    width: 60%
+    margin-top: 10px;
+    width: 80%
 }
+
+/*-----footer----*/
+
 .footer-text {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: auto;
-    
+    margin: auto;    
 }
 .footer-background {
     background-color: #633c6fee;
-    padding: 5% 0%;
-    
+    padding: 5% 0%;    
 }
 .footer-text h3, h4 {
     color:rgb(209, 209, 209);
@@ -167,11 +162,13 @@ nav img {
 .social-media ul li {
     list-style-type: none;
 }
-/*Contact Page*/
+
+/*----Contact Us Page----*/
+
 .contact-header-background-image h1 {
     text-align: center;
-    font-size: 2rem;
-    padding-top: 50px;
+    font-size: 3rem;
+    padding-top: 100px;
     font-weight: 600;
 }
 .contact-us {
