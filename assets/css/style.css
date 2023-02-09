@@ -35,6 +35,15 @@ p {
     position: relative;
     overflow: hidden;
 }
+.contact-header-background-image {
+    background-image: url(../images/background.png);
+
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
 nav {
         display: flex;
         padding: 2% 4%;
