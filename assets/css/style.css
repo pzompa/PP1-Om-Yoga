@@ -165,9 +165,12 @@ nav img {
     font-size: 40px;
     list-style: none;
     margin: 8px;
+      
 }
 .social-media ul li {
     list-style-type: none;
+    display: inline-block;
+    padding-left: 30px;
 }
 
 /*----Contact Us Page----*/
@@ -206,9 +209,7 @@ nav img {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0;
-    
-        
+    column-gap: 0; 
 }
 .photos > img {
     width: 100%;
@@ -216,11 +217,12 @@ nav img {
 }
 #gallery-title {
     font-family: Roboto, sans-serif;
+    font-size: inherit;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(44, 9, 59);
     text-align: center;
     padding-top: 5%;
     padding-bottom: 3%;
-    font-size: 1.5rem;
+    
 }
