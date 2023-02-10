@@ -41,6 +41,13 @@ p {
     position: relative;
     overflow: hidden;
 }
+.gallery-background-image {
+    background: url(../images/gallery-background-image2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
 nav {
         display: flex;
         padding: 2% 4%;
@@ -191,4 +198,29 @@ nav img {
     padding: 5px;
     margin-bottom: 17px;
     outline: none;
+}
+
+/*------ Gallery-------*/
+
+.photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    
+        
+}
+.photos > img {
+    width: 100%;
+    border-radius: 50%;
+}
+#gallery-title {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(44, 9, 59);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 1.5rem;
 }
