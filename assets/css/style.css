@@ -33,27 +33,14 @@ p {
     position: relative;
     overflow: hidden;
 }
-.contact-header-background-image {
-    background: url(../images/contact-background-image2.jpeg);
-    background-size: cover;
-    min-height: 100vh;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
-}
-.gallery-background-image {
-    background: url(../images/gallery-background-image2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-   
+/* Navigation part*/
+nav {
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav {
-        display: flex;
-        padding: 2% 4%;
-        justify-content: space-between;
-        align-items: center;
-}
 nav img {
     width: 135px;
     
@@ -72,14 +59,13 @@ nav img {
     display: block;
     margin: auto;
     transition: 5s;
-    width: 0%;
     height: 2px
 }
 .active {
     border-bottom: 1px solid rgb(85, 10, 117);
 }
 .navigation-links ul li a {
-    font-size: 22px;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 .header-text {
@@ -111,6 +97,9 @@ nav img {
     border: 2px solid rgb(85, 10, 117);
     background: rgb(192, 161, 206);
 }
+
+/* Testimonial Part*/
+
 .customer-feedback {
     width: 80%;
     margin: auto;
@@ -143,7 +132,7 @@ nav img {
     width: 80%
 }
 
-/*-----footer----*/
+/* footer */
 
 .footer-text {
     display: flex;
@@ -173,13 +162,33 @@ nav img {
     padding-left: 30px;
 }
 
-/*----Contact Us Page----*/
-
+/* Contact Us Page */
+/* if header image change
+.contact-header-background-image {
+    background: url(../images/gallery-background-image2.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+*/
+.contact-header-background-image {
+    background: url(../images/gallery-photo/hero-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* testing it out.
 .contact-header-background-image h1 {
     text-align: center;
     font-size: 3rem;
     padding-top: 100px;
     font-weight: 600;
+}
+*/
+.about-us {
+    width: 80%;
+    text-align: center;
 }
 .contact-us {
     background-color: #fff3f3;
@@ -203,8 +212,13 @@ nav img {
     outline: none;
 }
 
-/*------ Gallery Page-------*/
+/* Gallery Page */
 
+.gallery-background-image {
+    background: url(../images/gallery-photo/hero-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .photos {
     clear: both;
     line-height: 0;
@@ -213,8 +227,6 @@ nav img {
     margin: auto;
     width: 80%;
 }
-
-
 .photos img {
    width: 100%;
    border-radius: 50%;   
@@ -228,11 +240,12 @@ nav img {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 3%;
-    
+
 }
 
 /*  classes Page */
 /* Yoga part */
+
 .our-yoga-styles h1 {
     text-align: center;
     font-size: 2rem;
@@ -313,16 +326,12 @@ nav img {
 }
 
 /* Time Table*/
+
 .schedule h1 {
     text-align: center;
     font-size: 2rem;
     padding-top: 60px;
 }
-/*
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }*/
 .time-table {
     width: 90%;
     margin: auto;
