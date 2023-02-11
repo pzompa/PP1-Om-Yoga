@@ -251,6 +251,7 @@ nav img {
     border-radius: 10px;    
     box-sizing: border-box;
     transition: .5s;
+    padding-bottom: 30px;
 }
 .yoga-style:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.474);
@@ -265,6 +266,47 @@ nav img {
     padding: 15px;
 }
 .yoga-style p {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+/* Insturctor part */
+
+.get-to-know-your-teacher h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 60px;
+}
+.teacher-introduction {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+.teacher-details {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;    
+    box-sizing: border-box;
+    transition: .5s;
+    padding-bottom: 30px;
+}
+.teacher-details:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.474);
+}
+.teacher-details img{
+    border-radius: 10px;
+    width: 100%;       
+}
+.teacher-details h3 {
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+.teacher-details p {
     text-align: justify;
     width: 80%;
     margin: auto;
