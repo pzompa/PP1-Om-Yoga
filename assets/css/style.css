@@ -235,7 +235,7 @@ nav img {
 /* Yoga part */
 .our-yoga-styles h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 60px;
 }
 .yoga-type {
@@ -310,4 +310,41 @@ nav img {
     text-align: justify;
     width: 80%;
     margin: auto;
+}
+
+/* Time Table*/
+.schedule h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 60px;
+}
+/*
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }*/
+.time-table {
+    width: 90%;
+    margin: auto;
+    background-color: #fff3f3;
+    border-radius: 10px;
+}
+.time-table table {    
+    padding: 5% 0% 5% 2%;
+}
+.susan {
+    background-color: rgb(254, 177, 222);
+}
+.karen {
+    background-color: #a8faba;
+}
+.lauren {
+    background-color: #8d94fd;
+}
+.time-table table tr th {
+    font-size: 1.3rem;
+}
+.time-table table tr td {
+    padding: 10px;
+    text-align: center;
 }
