@@ -82,6 +82,7 @@ nav img {
     font-style: italic;
     margin-top: 80px;
 }
+/* Button for Index and Contact Us page  */
 .contact-btn {
     display: inline-block;
     text-decoration: none;
@@ -162,35 +163,48 @@ nav img {
     padding-left: 30px;
 }
 
+/* Contact Us Page */
 .contact-header-background-image {
     background: url(../images/gallery-photo/hero-image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .about-us {
     width: 80%;
+    margin: auto;
+}
+.about-us h1 {
     text-align: center;
+    font-size: 2rem;
+    padding-top: 60px;
+}
+.about-us p {
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 20px;
+    line-height: 25px;
+    padding-bottom: 20px;
 }
 .contact-us {
-    background-color: #fff3f3;
-    margin: auto;
-    align-items: center;
-    padding: 3% 3%;
     display: flex;
+    background-color: #fff3f3;
+    width: 80%;
+    margin: auto;
+    padding: 3% 3%;
+           
 }
 .form-entry {
-    width: 50%;
-}
-.map {
-    padding: 10px
+    width: 60%;
 }
 .text-input {
     display: block;
     border: 1px solid #ccc;
-    width: 70%;
+    width: 90%;
     padding: 5px;
     margin-bottom: 17px;
     outline: none;
+    border-radius: 10px;
 }
 
 /* Gallery Page */
@@ -223,7 +237,6 @@ nav img {
     padding-bottom: 3%;
 
 }
-
 /*  classes Page */
 /* Yoga part */
 
@@ -260,12 +273,12 @@ nav img {
     padding: 15px;
 }
 .yoga-style p {
-    text-align: justify;
+    text-align: left;
     width: 80%;
     margin: auto;
 }
 
-/* Insturctor part */
+/* Instructor part */
 
 .get-to-know-your-teacher h1 {
     text-align: center;
