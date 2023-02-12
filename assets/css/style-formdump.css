@@ -55,32 +55,25 @@ nav img {
     position: relative;
 }
 .navigation-links ul li::after {
-    background: red;
+    content: '';
+    width: 0%;
+    background: rgb(85, 10, 117);
     display: block;
     margin: auto;
-    transition: 5s;
+    transition: .5s;
     height: 2px
 }
+.navigation-links ul li:hover::after {
+    width: 100%;
+}
 .active {
-    border-bottom: 1px solid rgb(85, 10, 117);
+    background-color: rgba(85, 10, 117, 0.324);
+    padding: 0px 7px ;
+    border-radius: 10px;
 }
 .navigation-links ul li a {
     font-size: 1.5rem;
     text-decoration: none;
-}
-.header-text {
-    text-align: center;
-    margin-top: 120px;
-      
-}
-.header-text h1 {
-    font-size: 50px;
-    text-align: center;
-}
-.header-text p {
-    font-size: 25px;
-    font-style: italic;
-    margin-top: 80px;
 }
 
 /* footer */
