@@ -10,55 +10,59 @@
     <title>Om Yoga - Project 1</title>
 </head>
 <body>
-    <!--Header Part-->
 
-    <div class="gallery-background-image">
+<!--Header Part-->
+    <div class="contact-header-background-image">        
         <nav>
             <a href="index.html"><img src="assets/images/logo-with-text.png" alt="Om Yoga logo"></a>
             <div class="navigation-links">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="classes.html">CLASSES</a></li>
-                    <li><a href="gallery.html" class="active">GALLERY</a></li>
-                    <li><a href="signup.html">SIGN UP</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="signup.html" class="active">SIGN UP</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
-        </nav>
+        </nav>     
     </div>
 
-    <!--Main Part-->
-
-    <section>
-        <!--Gallery Part-->
-
-        <div id="gallery-title">
-            <h1>Our Gallery</h1>
+    <!-- Main Part-->
+    <section class="about-us">    
+        <h1>Sign Up Now</h1>
+          
+    </section>     
+    <section class="contact-us">  
+              
+        <!--Form-->
+        <div class="form-entry">
+            <h2>Please fill out your details</h2>
+            <br>
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Please enter your name" required class="text-input">
+                <label for="email">Email Address:</label>
+                <input type="email" name="email_address" id="email" placeholder="Please enter your email address" required class="text-input">
+                <label for="phone-number">Telephone Number:</label>
+                <input type="number" name="phone-number" id="phone-number" placeholder="Please enter your telephone number" class="text-input">
+                <label for="signup">Membership Type:</label>
+                <select name="signup" id="signup" placeholder="Choose One">
+                    <option value="one-year">One Year Membership</option>
+                    <option value="one-month">One Month Membership</option>
+                    <option value="two-year">Two Year Membership</option>                    
+                    <option value="free-trail">Free One Week Trail</option>
+                </select>
+                <br><br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="text-input"></textarea>
+                <input type="submit" value="Sign Up Now" class="contact-btn">               
+            </form>
         </div>
-        <div > 
-            <div class="photos">
-                <img src="assets/images/gallery-photo/image5.jpg" alt="">
-                <img src="assets/images/gallery-photo/image.jpg" alt="">
-                <img src="assets/images/gallery-photo/image2.jpeg" alt="">
-                <img src="assets/images/gallery-photo/image3.jpeg" alt="">
-                <img src="assets/images/gallery-photo/image4.jpg" alt="">
-                <img src="assets/images/gallery-photo/image9.jpeg" alt="">
-                <img src="assets/images/gallery-photo/image6.webp" alt="">
-                <img src="assets/images/gallery-photo/image7.jpeg" alt="">
-                <img src="assets/images/gallery-photo/image10.jpeg" alt="">
-                <img src="assets/images/gallery-photo/image8.jpeg" alt="">
-                <img src="assets/images/gallery-photo/teacher.png" alt="">
-                <img src="assets/images/gallery-photo/Teacher1.webp" alt="">
-                <img src="assets/images/gallery-photo/Teacher2.jpeg" alt="">
-                <img src="assets/images/gallery-photo/Teacher3.jpeg" alt="">
-                <img src="assets/images/gallery-photo/image11.jpg" alt="">
-                <img src="assets/images/gallery-photo/image13.webp" alt="">
-                <img src="assets/images/gallery-photo/image14.jpeg" alt="">
-                <img src="assets/images/gallery-photo/image15.webp" alt="">
-            </div>
+        <div class="signup-image">
+            <img src="assets/images/gallery-photo/image2.jpeg" width="350" height="500" alt="">            
         </div>
     </section>
-
+        
     <!--Footer Part-->
     <section class="footer-background">
         <div class="footer-text">
@@ -71,11 +75,13 @@
                 <h4>Email: info@omyoga.com</h4>
             </div>
             <div class="social-media">
-                <ul>                    
+                <ul>
+                    
                     <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="visit our Facebook page (opens in a new tab)"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="visit our Twitter page (opens in a new tab)"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="visit our Instagram page (opens in a new tab)"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="visit our Youtube page (opens in a new tab)"><i class="fa fa-youtube"></i></a></li>
+                    
                 </ul>
             </div>
             <div>
@@ -85,8 +91,6 @@
             </div>
         </div>
     </section>
-    
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-
 </body>
 </html>
