@@ -162,30 +162,11 @@ nav img {
     padding-left: 30px;
 }
 
-/* Contact Us Page */
-/* if header image change
-.contact-header-background-image {
-    background: url(../images/gallery-background-image2.png);
-    background-size: cover;
-    min-height: 100vh;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
-}
-*/
 .contact-header-background-image {
     background: url(../images/gallery-photo/hero-image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* testing it out.
-.contact-header-background-image h1 {
-    text-align: center;
-    font-size: 3rem;
-    padding-top: 100px;
-    font-weight: 600;
-}
-*/
 .about-us {
     width: 80%;
     text-align: center;
