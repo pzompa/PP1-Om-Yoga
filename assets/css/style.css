@@ -39,10 +39,10 @@ nav {
 }
 
 nav img {
-    width: 135px;
-    
+    width: 135px;    
 }
 .navigation-links {
+    
     text-align: right;
 }
 .navigation-links ul li {
@@ -51,7 +51,7 @@ nav img {
     padding: 8px 12px;
     position: relative;
 }
-
+/* animate a line underneath navigation links */
 .navigation-links ul li::after {
     content: '';
     width: 0%;
@@ -94,7 +94,7 @@ nav img {
     border: 2px solid rgb(85, 10, 117);
     padding: 12px 15px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 10px;
     cursor: pointer;
     transition: 1s;
 }
@@ -120,6 +120,7 @@ nav img {
     justify-content: space-between;
     margin-top: 5%;
 }
+
 .feedback-entry {
     flex-basis: 31%;
     background-color: #fff3f3;
@@ -191,7 +192,6 @@ nav img {
     padding-bottom: 20px;
 }
 .contact-us {
-    display: flex;
     background-color: #fff3f3;
     width: 80%;
     margin: auto;
@@ -199,16 +199,20 @@ nav img {
            
 }
 .form-entry {
-    width: 60%;
+    width: 100%;
 }
 .text-input {
     display: block;
     border: 1px solid #ccc;
-    width: 90%;
+    width: 95%;
     padding: 5px;
     margin-bottom: 17px;
     outline: none;
     border-radius: 10px;
+}
+.map{
+    margin-top: 20px;
+    padding-bottom: 0px;
 }
 
 /* Gallery Page */
@@ -338,12 +342,13 @@ nav img {
     padding-top: 60px;
 }
 .time-table {
-    width: 90%;
     margin: auto;
     background-color: #fff3f3;
     border-radius: 10px;
+    width: 80%;
 }
-.time-table table {    
+.time-table table {   
+    width: 100%; 
     padding: 5% 0% 5% 2%;
 }
 .susan {
@@ -362,6 +367,8 @@ nav img {
     padding: 10px;
     text-align: center;
 }
+
+
 /* Sign Up*/
 .sign-up {
     text-align: center;
@@ -380,4 +387,49 @@ nav img {
 .sign-up-btn:hover {
     border: 2px solid rgb(85, 10, 117);
     background: rgb(192, 161, 206);
+}
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 950px){
+    .navigation-links ul li a {
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    .header-text h1 {
+        font-size: 2.5rem;
+    }
+    .time-table {
+        margin: auto;
+        background-color: #fff3f3;
+        border-radius: 10px;
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width: 800px){    
+    .feedback {
+        flex-direction: column;
+    }
+    .yoga-type{
+        flex-direction: column;
+    }
+    .yoga-style{
+        margin-bottom: 50px;
+    }
+    .teacher-introduction{
+        flex-direction: column;
+    }
+    .teacher-details{
+        margin-bottom: 50px;
+    }
+    .time-table table {
+        font-size: .7rem;
+        padding: 0px;
+    }
+    nav img {
+        width: 120px;    
+    }
 }
