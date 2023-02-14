@@ -148,24 +148,25 @@ nav img {
 }
 .footer-background {
     background-color: #633c6fee;
-    padding: 5% 0%;    
+    padding: 10px;
 }
 .footer-text h3, h4 {
     color:rgb(209, 209, 209);
     font-weight: 700;
 }
 .social-media {
-    text-align: center;
+    text-align: left;
     color: #fff3f3;
     font-size: 2.5rem;
     list-style: none;
-    margin: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
       
 }
 .social-media ul li {
     list-style-type: none;
     display: inline-block;
-    padding-left: 30px;
+
 }
 
 /* Contact Us Page */
@@ -174,29 +175,17 @@ nav img {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-.about-us {
-    width: 80%;
-    margin: auto;
-}
 .about-us h1 {
     text-align: center;
     font-size: 2rem;
     padding-top: 60px;
 }
-.about-us p {
-    text-align: center;
-    font-size: 1.1rem;
-    padding-top: 20px;
-    line-height: 25px;
-    padding-bottom: 20px;
-}
+
 .contact-us {
-    background-color: #fff3f3;
     width: 80%;
     margin: auto;
+    background-color: #fff3f3;
     padding: 3% 3%;
-           
 }
 .form-entry {
     width: 100%;
@@ -204,7 +193,7 @@ nav img {
 .text-input {
     display: block;
     border: 1px solid #ccc;
-    width: 95%;
+    width: 50%;
     padding: 5px;
     margin-bottom: 17px;
     outline: none;
@@ -260,6 +249,11 @@ nav img {
     font-size: 2rem;
     padding-top: 40px;
 }
+.our-yoga-styles h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 40px;
+}
 .yoga-type {
     width: 80%;
     margin: auto;
@@ -295,10 +289,10 @@ nav img {
 
 /* Instructor part */
 
-.get-to-know-your-teacher h1 {
+.get-to-know-your-teacher h2 {
     text-align: center;
-    font-size: 2rem;
-    padding-top: 60px;
+    font-size: 1.8rem;
+    padding-top: 40px;
 }
 .teacher-introduction {
     width: 80%;
@@ -335,20 +329,17 @@ nav img {
 }
 
 /* Time Table*/
-
-.schedule h1 {
+.schedule h2 {
     text-align: center;
-    font-size: 2rem;
-    padding-top: 60px;
+    font-size: 1.8rem;
+    padding-top: 40px;
 }
 .time-table {
     margin: auto;
-    background-color: #fff3f3;
-    border-radius: 10px;
-    width: 80%;
+    width: 100%;
 }
 .time-table table {   
-    width: 100%; 
+    width: 90%; 
     padding: 5% 0% 5% 2%;
 }
 .susan {
@@ -360,10 +351,7 @@ nav img {
 .lauren {
     background-color: #8d94fd;
 }
-.time-table table tr th {
-    font-size: 1.3rem;
-}
-.time-table table tr td {
+.time-table table tr td,th {
     padding: 10px;
     text-align: center;
 }
@@ -389,6 +377,21 @@ nav img {
     background: rgb(192, 161, 206);
 }
 
+/*  formdump */
+.formdump-header-background-image {
+    background: url(../images/gallery-photo/hero-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.formdump{
+    background-color: #fff3f3;
+    width: 80%;
+    margin: auto;
+}
+.formdump h3{
+    text-align: center;
+    padding: 20%;
+}
 
 /* Media Queries */
 
@@ -403,10 +406,9 @@ nav img {
     }
     .time-table {
         margin: auto;
-        background-color: #fff3f3;
-        border-radius: 10px;
-        width: 100%;
-    }    
+        width:100%;‚
+    }
+   
 }
 
 @media screen and (max-width: 800px){    
@@ -425,11 +427,25 @@ nav img {
     .teacher-details{
         margin-bottom: 50px;
     }
-    .time-table table {
-        font-size: .7rem;
-        padding: 0px;
+    .time-table{
+        width: 100%;
+        font-size: .7rem;  
+    }
+    .time-table table tr td,th {
+        padding: 5px;
+        text-align: center;
     }
     nav img {
         width: 120px;    
+    }
+    .navigation-links ul li {
+        flex-direction: column;
+    }
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;    
     }
 }

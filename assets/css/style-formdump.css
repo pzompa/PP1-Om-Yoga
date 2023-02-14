@@ -77,28 +77,29 @@ nav img {
 }
 
 /* footer */
+.formdump-footer-bg {
+    background-color: #633c6fee;
+    padding: 1% 0%;    
+}
 .footer-text {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: auto;    
 }
-.footer-background {
-    background-color: #633c6fee;
-    padding: 5% 0%;    
-}
+
 .footer-text h3, h4 {
     color:rgb(209, 209, 209);
     font-weight: 700;
 }
-.social-media {
+.footer-social-media {
     text-align: center;
     color: #fff3f3;
     font-size: 2.5rem;
     list-style: none;
     margin: 8px;      
 }
-.social-media ul li {
+.footer-social-media ul li {
     list-style-type: none;
     display: inline-block;
     padding-left: 30px;
@@ -109,6 +110,51 @@ nav img {
     text-align: center;
     margin: auto;
     width: 80%;
-    padding-top: 30%;
-    font-size: 1.2rem;
+    padding-top: 30%;    
+    margin-top: 120px;
+    font-size: 1rem;
 }
+@media screen and (max-width: 950px){
+    .footer-navigation-links ul li a {
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 800px){    
+    .feedback {
+        flex-direction: column;
+    }
+    .yoga-type{
+        flex-direction: column;
+    }
+    .yoga-style{
+        margin-bottom: 50px;
+    }
+    .teacher-introduction{
+        flex-direction: column;
+    }
+    .teacher-details{
+        margin-bottom: 50px;
+    }
+    .time-table table {
+        font-size: .7rem;
+        
+        width: 90%; 
+        padding: 5% 0% 5% 2%;
+    }
+    nav img {
+        width: 120px;    
+    }
+    .footer-navigation-links ul li {
+        flex-direction: column;
+    }
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;    
+    }
+}
+
