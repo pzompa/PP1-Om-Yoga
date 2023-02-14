@@ -406,9 +406,20 @@ nav img {
     }
     .time-table {
         margin: auto;
-        width:100%;‚
+        width:100%;
     }
-   
+    .navigation-links {
+    
+        
+        
+    }
+    .navigation-links ul li {
+      
+        display: block;
+        padding: 5px;
+       
+    
+    }
 }
 
 @media screen and (max-width: 800px){    
