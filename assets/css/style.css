@@ -424,6 +424,9 @@ nav img {
         display: block;
         padding: 5px;          
     }
+    .photos {
+        column-count: 2;
+    }
 }
 
 @media screen and (max-width: 800px){    
@@ -462,5 +465,8 @@ nav img {
         justify-content: space-between;
         width: 80%;
         margin: auto;    
+    }
+    .photos {
+        column-count: 1;
     }
 }
