@@ -171,7 +171,7 @@ nav img {
 
 /* Contact Us Page */
 .contact-header-background-image {
-    background: url(../images/gallery-photo/hero-image.jpeg);
+    background: url(../images/gallery-photo/small/hero-image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -207,7 +207,7 @@ nav img {
 /* Gallery Page */
 
 .gallery-background-image {
-    background: url(../images/gallery-photo/hero-image.jpeg);
+    background: url(../images/gallery-photo/small/hero-image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -379,7 +379,7 @@ nav img {
 
 /*  formdump */
 .formdump-header-background-image {
-    background: url(../images/gallery-photo/hero-image.jpeg);
+    background: url(../images/gallery-photo/small/hero-image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
