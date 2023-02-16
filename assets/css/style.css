@@ -200,9 +200,7 @@ nav img {
     border-radius: 10px;
 }
 .map{
-    margin-top: 20px;
-    padding-bottom: 0px;
-   
+    margin-top: 20px;   
 }
 
 /* Gallery Page */
@@ -385,14 +383,19 @@ nav img {
     background-repeat: no-repeat;
 }
 .formdump{
-    background-color: #fff3f3;
-    width: 80%;
-    margin: auto;
-}
-.formdump h3{
     text-align: center;
     padding: 20%;
 }
+.formdump h1 {
+    font-size: 2rem;
+}
+.formdump p, a{
+    margin: 15px;
+    font-size: 2rem;
+}
+/* M
+
+
 /* 404 Error Page*/
 
 .error-404{
