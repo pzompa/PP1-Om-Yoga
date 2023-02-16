@@ -39,7 +39,8 @@ nav {
 }
 
 nav img {
-    width: 135px;    
+    width: 135px;  
+    height: auto;  
 }
 .navigation-links {
     
@@ -111,6 +112,10 @@ nav img {
     text-align: center;
     padding-top: 60px;
 }
+.customer-feedback h2{
+    color: rgb(44, 9, 59);
+    font-size: 1.8rem;
+}
 .customer-feedback p {
     font-family: Roboto, sans-serif;
     font-style: italic;
@@ -135,7 +140,9 @@ nav img {
 }
 .feedback-entry img {
     margin-top: 10px;
-    width: 80%
+    width: 195px;
+    height: auto;
+    
 }
 
 /* footer */
@@ -150,9 +157,10 @@ nav img {
     background-color: #633c6fee;
     padding: 10px;
 }
-.footer-text h3, h4 {
-    color:rgb(209, 209, 209);
-    font-weight: 700;
+.footer-text h1, h2 {
+    color: #ccc;
+    font-size: 1rem;
+    text-transform: none;
 }
 .social-media {
     text-align: left;
@@ -171,7 +179,7 @@ nav img {
 
 /* Contact Us Page */
 .contact-header-background-image {
-    background: url(../images/gallery-photo/small/hero-image.jpeg);
+    background: url(../images/hero-image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -190,6 +198,9 @@ nav img {
 .form-entry {
     width: 100%;
 }
+.form-entry h2{
+    color: #252525;
+}
 .text-input {
     display: block;
     border: 1px solid #ccc;
@@ -206,7 +217,7 @@ nav img {
 /* Gallery Page */
 
 .gallery-background-image {
-    background: url(../images/gallery-photo/small/hero-image.jpeg);
+    background: url(../images/hero-image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -220,7 +231,7 @@ nav img {
 }
 .photos img {
    width: 100%;
-   border-radius: 30%;   
+   border-radius: 50%;   
 }
 #gallery-title {
     font-family: Roboto, sans-serif;
@@ -249,6 +260,7 @@ nav img {
     padding-top: 40px;
 }
 .our-yoga-styles h2 {
+    color: rgb(44, 9, 59);
     text-align: center;
     font-size: 1.8rem;
     padding-top: 40px;
@@ -289,6 +301,7 @@ nav img {
 /* Instructor part */
 
 .get-to-know-your-teacher h2 {
+    color: rgb(44, 9, 59);
     text-align: center;
     font-size: 1.8rem;
     padding-top: 40px;
@@ -329,6 +342,7 @@ nav img {
 
 /* Time Table*/
 .schedule h2 {
+    color: rgb(44, 9, 59);
     text-align: center;
     font-size: 1.8rem;
     padding-top: 40px;
@@ -366,7 +380,7 @@ nav img {
     text-decoration: none;
     color: rgb(44, 9, 59);
     border: 2px solid rgb(85, 10, 117);
-    padding: 20px 20px;
+    padding: 10px 10px;
     cursor: pointer;
     transition: 1s;
     border-radius: 10px;
@@ -378,7 +392,7 @@ nav img {
 
 /*  formdump */
 .formdump-header-background-image {
-    background: url(../images/gallery-photo/small/hero-image.jpeg);
+    background: url(../images/hero-image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -407,8 +421,23 @@ nav img {
 }
 .error-404 p, a{
     margin: 15px;
+    font-size: 1rem;
+}
+
+/* Sign-up - Thank you page */
+.sign-up-thank-you{
+    text-align: center;
+    padding: 20%;
+}
+.sign-up-thank-you h1 {
     font-size: 2rem;
 }
+.sign-up-thank-you p, a{
+    margin: 15px;
+    font-size: 1rem;
+}
+
+
 /* Media Queries */
 
 
@@ -428,23 +457,26 @@ nav img {
         display: block;
         padding: 5px;          
     }
-    .photos {
+     .photos {
         column-count: 2;
     }
 }
 
-@media screen and (max-width: 800px){    
+@media screen and (max-width: 700px){    
     .feedback {
         flex-direction: column;
     }
     .yoga-type{
         flex-direction: column;
+        column-count: 1;
     }
     .yoga-style{
         margin-bottom: 50px;
+        
     }
     .teacher-introduction{
         flex-direction: column;
+        
     }
     .teacher-details{
         margin-bottom: 50px;
@@ -458,7 +490,8 @@ nav img {
         text-align: center;
     }
     nav img {
-        width: 120px;    
+        width: 120px;   
+        height: auto; 
     }
     .navigation-links ul li {
         flex-direction: column;
