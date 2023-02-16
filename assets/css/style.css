@@ -202,6 +202,7 @@ nav img {
 .map{
     margin-top: 20px;
     padding-bottom: 0px;
+   
 }
 
 /* Gallery Page */
@@ -221,7 +222,7 @@ nav img {
 }
 .photos img {
    width: 100%;
-   border-radius: 50%;   
+   border-radius: 30%;   
 }
 #gallery-title {
     font-family: Roboto, sans-serif;
@@ -403,7 +404,7 @@ nav img {
 }
 .error-404 p, a{
     margin: 15px;
-    font-size: 2 rem;
+    font-size: 2rem;
 }
 /* Media Queries */
 
