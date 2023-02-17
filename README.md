@@ -322,6 +322,6 @@ This page contains 4 sections:
  * Map on the contact page was from [google map](https://www.google.com/maps/@52.4747667,13.337672,14z).
  * Texts about Yoga styles was taken from Modo yoga 
  
- * Code institute Mentor  Gereth, who has been so gracious and did more than was expected of him to help me with tips in completing this project.
+ * Code institute Mentor [Gereth McGirr](https://www.linkedin.com/in/gareth-mcgirr/), who has been so gracious and did more than was expected of him to help me with tips in completing this project.
  
  * Google search and you tube Tutorials has been a tremendous resource in understanding and solving many of my issues.
