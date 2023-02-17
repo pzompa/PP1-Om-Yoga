@@ -166,3 +166,44 @@ This page contains 4 sections:
  * Create a possibility to pay online with credit card.
  * Create a separate channel to join online classes with live Instructor.
  * Create user account pages with individual relevant information.
+
+ ---
+## Design - Initial Drawing
+### Homepage:
+
+![alt Homepage](/assets/images/readme/home.jpg)
+
+### Home Page Small Screen:
+
+![alt Homepage Small Screen](/assets/images/readme/home-smallscreen.jpg)
+
+### Classes Page:
+
+![alt Classes Page](/assets/images/readme/classes.jpg)
+
+### Classes Small Screen Page:
+
+![alt Classes Page Small Screen](/assets/images/readme/classes-smallscreen.jpg)
+
+### Gallery Page:
+
+![alt Gallery Page](/assets/images/readme/gallery.jpg)
+
+### Gallery Small Screen Page:
+
+![alt Gallery Page Small Screen](/assets/images/readme/gallery-smallscreen.jpg)
+
+
+### Sign-Up form Page:
+
+![alt Sign-Up Page](/assets/images/readme/signup.jpg)
+
+### Thank you - Sign Up Page:
+
+![alt Thank you - Sign Up Page](/assets/images/readme/signup-thankyou.jpg)
+
+### 404 error Page:
+
+![alt 404 error Page](/assets/images/readme/404page.jpg)
+
+---
