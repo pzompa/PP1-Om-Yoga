@@ -66,3 +66,19 @@ The goal of the business owner is:
 ![alt Thank you page](/assets/images/readme/thankyou-page.png)
 
 ---
+## Landing Page 
+### Welcome message:
+ * This page has an image that covers the whole viewport on big screen and with a beautiful quote about Yoga by the B.K.S Iyenger. 
+ * The aim is to wake the interest of the visitor to know more about the business.
+ * It is provided with a call-to-action button that is linked to the relevant page.
+
+![alt Landing page](/assets/images/readme/landing-page.png)
+
+### The Testimonial section:
+ * This section aims to provide a glimpse into our reputation with our customers.
+ * The flex layout idea was inspired by [YouTube tutorial](https://www.youtube.com/watch?v=oYRda7UtuhA) 
+ * Each testimony is provided with a box shadow animation on hover.
+
+ ![alt Testimonial page](/assets/images/readme/testimonial.png)
+
+ ---
