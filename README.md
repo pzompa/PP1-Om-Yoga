@@ -2,6 +2,7 @@
 OM Yoga is a website for a yoga studio located in the heart of Berlin. Germany. This site is intended for both beginners and advanced yoga enthusiasts. The website will give users all the important information about the studio, the different types of Yoga styles offered, the timetable of the classes, and a photo gallery. Furthermore, users can sign up for a membership or send a message. The Website highlights the positive and peaceful energy achieved through yoga in a stressful life in a big city. View the live site [here](https://pzompa.github.io/PP1-Om-Yoga/)
 
 ![alt AmIResponsive Screenshot](/assets/images/readme/amiresponsive-screenshot.png)
+
 ---
 ## Site Owner Goals:
 
@@ -115,6 +116,7 @@ This page contains 4 sections:
  * Gallery is responsive and can be viewed on any size Devices.On a screen of 950px, two columns of image will take all the screen width, and on a small screen of max 700px, a single image will take the whole screen width.
 
 ![alt Gallery Page](/assets/images/readme/gallery.png)
+
 ---
 ## Sign Up page:
  * This page gives the user an opportunity to enroll in the classes and lets the user choose either a month, year, 2 years or a week of free trail membership. They may also send message if they wish to in the message field provided.
@@ -124,6 +126,7 @@ This page contains 4 sections:
  ![alt Sign Up Page](/assets/images/readme/signup.png)
 
 ---
+
 ## Contact page:
  * This page gives the user an opportunity to contact the business if they have any questions without having to signup.
  * Upon successful completion of form, the user will be provided with an acknowledgment of the same from the formdump.html.
@@ -131,3 +134,35 @@ This page contains 4 sections:
  ![alt Contact Page](/assets/images/readme/contact.png)
 
 ---
+
+## Technologies used:
+ * HTML5
+   * This Website was developed using HTML as the main language.
+ * CSS3
+   * This Website was styled using CSS in an external file.
+ * Visual Studio Code
+   * This Website was developled using Visual Studio Code IDE
+ * GitHub
+   * Source code is hosted on GitHub
+ * Git
+   * Used to commit and push code to GitHub in the gitpod terminal
+ * Adobe Photoshop
+   * Photoshop used to resize images
+ * Am I Responsive
+   * used to create mockup of the website on different screen sizes.
+ * Font Awesome
+   * Used for the social media links in the footer section of all the Pages
+ * Lighthouse
+   * Used to test performance of each Page
+ * Favicon.io
+   * Favicon files were created at this [Website](https://favicon.io/favicon-converter/)
+
+---
+## Existing features:
+ * Responsive design
+ * Contact and Signup page with success and respond page
+
+## Future features to implement:
+ * Create a possibility to pay online with credit card.
+ * Create a separate channel to join online classes with live Instructor.
+ * Create user account pages with individual relevant information.
