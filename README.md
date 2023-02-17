@@ -311,3 +311,17 @@ This page contains 4 sections:
    * You should now have a copy of the original repository in your GitHub account.
 
 ---
+## Credits
+ * I learned about Flexbox from, among others,  [Kevin Powell's](https://www.youtube.com/@KevinPowell) Youtube channel.
+ * I relied heavily on [W3C Website](https://www.w3schools.com/) to learn and test various used features of HTML and CSS
+ * This ReadMe structure was based and inspired by Code  
+ Institute Mentor [Gareth McGirr's Repo](https://github.com/Gareth-McGirr/tacos-travels/blob/main/README.md)
+ * Images were taken from [Pexels Website](https://www.pexels.com/)
+ * Logo was from https://www.nicepng.com
+ * Icons in the footer were taken from [Font Awesome](https://fontawesome.com/) Website.
+ * Map on the contact page was from [google map](https://www.google.com/maps/@52.4747667,13.337672,14z).
+ * Texts about Yoga styles was taken from Modo yoga 
+ 
+ * Code institute Mentor  Gereth, who has been so gracious and did more than was expected of him to help me with tips in completing this project.
+ 
+ * Google search and you tube Tutorials has been a tremendous resource in understanding and solving many of my issues.
