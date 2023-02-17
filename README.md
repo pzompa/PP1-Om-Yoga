@@ -25,3 +25,44 @@ The goal of the business owner is:
   * Commercial Visitor Goals:
      * As a commercial Visitor, I want to find ouit any possiblities of Franchising their Business.
      * As  a commercial Visitor, I want to find out if there is other business oppurtunity with the Business
+
+     ---
+## Website Structure- Navigation Menu:
+   * It features the businesse's logo, which when clicked from anywhere on the site, will take the user to the home page.
+   * It also contains links to Home, Classes, Gallery, Sign up and Contact pages. 
+   * Each menu item has an animated underline on hover.  
+   * The active menu element is highlighted by a background colour.
+   * It allows users to navigate between the pages within the site on any device size.
+
+![alt Menu Navigation](/assets/images/readme/menu-navigation.png)
+
+---
+## Footer:
+ * It contains links to the business’s social media accounts. When clicked, the window will open in new tabs.
+ * Each icon has an aria-label value, which makes it accessible to visually impaired visitors.
+ * It provides information about the address and contact of the Business.Also, the hours of the business.
+
+![alt Footer](/assets/images/readme/footer.png)
+
+---
+## Favicon:
+ * To help users easy remember our site while browsing through multiple URLs, a favicon with the logo of Om yoga was applied to all the pages in the site.
+
+![alt Favicon](/assets/images/readme/favicon.png)
+
+---
+## 404 Page:
+ * A 404 page was created to give users a way back to the home page without the need of the browser back button, if a link breaks down.
+ * The aim is to minimize the potential negative user experience.
+
+ ![alt 404 error page](/assets/images/readme/404page.png)
+
+---
+## Thank you Page:
+ * Thank- you page was created to confirm the receipt of the sign up form. 
+ * A link to return to the home page was provided without the need for a browser back button. 
+
+
+![alt Thank you page](/assets/images/readme/thankyou-page.png)
+
+---
