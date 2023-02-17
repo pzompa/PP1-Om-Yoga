@@ -207,3 +207,69 @@ This page contains 4 sections:
 ![alt 404 error Page](/assets/images/readme/404page.jpg)
 
 ---
+## Testing:
+
+### Lighthouse Testing:
+
+#### Home Page test:
+![alt Home page test](/assets/images/readme/lt-index.png)
+
+#### Classes Page test:
+![alt Home page test](/assets/images/readme/lt-classes.png)
+
+#### Gallery Page test:
+![alt Gallery page test](/assets/images/readme/lt-gallery.png)
+
+#### Sign Up Page test:
+![alt Sign Up page test](/assets/images/readme/lt-signup.png)
+
+#### Thank you Sign Up Page test:
+![alt Sign Up page test](/assets/images/readme/lt-thankyou-signup.png)
+
+#### Contact Page test:
+![alt Contact page test](/assets/images/readme/lt-contact.png)
+
+#### Contact Confirmation Page test:
+![alt Contact Confirmation page test](/assets/images/readme/lt-contact-confirmation.png)
+
+#### 404 Error Page test:
+![alt 404 Error page test](/assets/images/readme/lt-404.png)
+
+#### Wave Testing:
+   * A Test was conducted using the Web Accessibbility Evaluation Tool(WAVE) and no errors and no issues with contrasts were found. This was important to ensure that the web content is more accessible to users with disadvantages.
+![alt WAVE test](/assets/images/readme/wave-test.png)   
+
+
+#### Navigation Link Test
+  * All the Navigation links has been tested and they navigate the user to the right pages as expected. 
+  
+
+#### Form Testing
+   * If the user fail to enter a value or enters an incorrect input
+    into the field marked required, then the user is prompted to enter a valid value into the field before submitting the form. 
+    The value check was performed as expected and designed.
+
+   * If all the input values are correct then, the user presented with the Thank you page or confirmation page.
+   This performance was as expected and designed
+
+#### 404 Error Testing
+   * When a user enters an incorrect url address, they are redirected to the 404 page as expected.
+   ![alt 404 Error test](/assets/images/readme/404page.png)   
+
+#### Thank-you page Testing
+   * When a user successfully signs up for a membership, they are redirected to the Thank you Page and presented with a Thank you message. 
+   
+### Validator Testing:
+   * A test was conducted using Lighthouse within Google Chrome to verify performance and accessibility standards and found no issues.
+
+![alt Index page test](/assets/images/readme/wv-index.png)
+![alt Classes page test](/assets/images/readme/wv-classes.png)
+![alt Gallery page test](/assets/images/readme/wv-gallery.png)
+![alt Sign Up page test](/assets/images/readme/wv-signup.png)
+![alt Thank you Sign Up page test](/assets/images/readme/wv-thankyou.png)
+![alt Contact page test](/assets/images/readme/wv-contact.png)
+![alt Confirmation Contact page test](/assets/images/readme/wv-confirmation.png)
+![alt 404 Error page test](/assets/images/readme/wv-404.png)
+
+
+---
