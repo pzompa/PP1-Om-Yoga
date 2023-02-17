@@ -82,3 +82,31 @@ The goal of the business owner is:
  ![alt Testimonial page](/assets/images/readme/testimonial.png)
 
  ---
+ ## Yoga Classes Page:
+This page contains 4 sections:
+ ### About:
+   * The first section provides the visitor with a motivating description of the importance and benefits of Yoga. 
+
+![alt About section](/assets/images/readme/about-section.png)
+
+ ### Yoga Style:
+   * The second part shows the different yoga styles practiced with brief description.
+   * The flex layout idea was inspired by [YouTube tutorial](https://www.youtube.com/watch?v=oYRda7UtuhA)
+   * Each testimony is provided with a box shadow animation on hover.
+
+![alt Yoga Style section](/assets/images/readme/yoga-styles.png)
+
+ ### Instructor:
+   * The third section lets the user get to know the instructors better.
+   * The styling is kept consistent throughout the page.
+
+![alt Instructor section](/assets/images/readme/instructor.png)
+
+ ### Time Table:
+   * This section contains the weekly class schedule of each Instructor. This aims to give user a chance to choose their preferred instructor or the yoga type.
+   * Each Teacher and their yoga type are highlighted in different colour.
+   * Below the table is a call-to-action button linked to Sign up form.
+
+![alt Course Timing section](/assets/images/readme/course-timing.png)
+
+---
