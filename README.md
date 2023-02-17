@@ -110,3 +110,8 @@ This page contains 4 sections:
 ![alt Course Timing section](/assets/images/readme/course-timing.png)
 
 ---
+## Gallery Page:
+ * This page contains a collage of photographs depicting different yoga style offered with Instructors actively helping the participants with their posture. The aim is to show the visitor of the positive vibe in the studio as well as the positive energy in the studio.
+ * Gallery is responsive and can be viewed on any size Devices.On a screen of 950px, two columns of image will take all the screen width, and on a small screen of max 700px, a single image will take the whole screen width.
+
+![alt Gallery Page](/assets/images/readme/gallery.png)
