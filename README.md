@@ -115,3 +115,19 @@ This page contains 4 sections:
  * Gallery is responsive and can be viewed on any size Devices.On a screen of 950px, two columns of image will take all the screen width, and on a small screen of max 700px, a single image will take the whole screen width.
 
 ![alt Gallery Page](/assets/images/readme/gallery.png)
+---
+## Sign Up page:
+ * This page gives the user an opportunity to enroll in the classes and lets the user choose either a month, year, 2 years or a week of free trail membership. They may also send message if they wish to in the message field provided.
+ * All the text field is required except the message field.
+ * The user will be provided with a Thank you message upon successful completion of the form from the formdump-signup.html.
+
+ ![alt Sign Up Page](/assets/images/readme/signup.png)
+
+---
+## Contact page:
+ * This page gives the user an opportunity to contact the business if they have any questions without having to signup.
+ * Upon successful completion of form, the user will be provided with an acknowledgment of the same from the formdump.html.
+
+ ![alt Contact Page](/assets/images/readme/contact.png)
+
+---
