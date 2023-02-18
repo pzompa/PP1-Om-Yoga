@@ -99,7 +99,7 @@ nav img {
     cursor: pointer;
     transition: 1s;
 }
-/*Changes colour when hover*/
+/*Animation for the button on hover*/
 .contact-btn:hover {
     border: 2px solid rgb(85, 10, 117);
     background: rgb(192, 161, 206);
@@ -136,7 +136,7 @@ nav img {
     box-sizing: border-box;
     transition: .5s;
 }
-/* for box animation */
+/* animation for the box on hover*/
 .feedback-entry:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -283,7 +283,7 @@ nav img {
     transition: .5s;
     padding-bottom: 30px;
 }
-/* animation for the box*/
+/* animation for the box on hover*/
 .yoga-style:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.474);
 }
@@ -326,6 +326,7 @@ nav img {
     transition: .5s;
     padding-bottom: 30px;
 }
+/*Animation for the box on hover*/
 .teacher-details:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.474);
 }
@@ -389,12 +390,13 @@ nav img {
     transition: 1s;
     border-radius: 10px;
 }
+/*Animation for the button*/
 .sign-up-btn:hover {
     border: 2px solid rgb(85, 10, 117);
     background: rgb(192, 161, 206);
 }
 
-/*  formdump */
+/*  formdump Page*/
 .formdump-header-background-image {
     background: url(../images/hero-image.jpeg);
     background-size: cover;
@@ -440,7 +442,7 @@ nav img {
 }
 
 
-/* Media Queries for medium screen( max screen size 950px*/
+/* Media Queries for medium screen( max screen size 950px           */
 
 
 @media screen and (max-width: 950px){
