@@ -299,7 +299,7 @@ This page contains 4 sections:
 
 ## Deployment to Github Pages:    
    * The site was deployed to GitHub pages. The steps to deploy are as follows:
-   * n the GitHub repository, navigate to the Settings tab
+   * Open the GitHub repository, navigate to the Settings tab
    * From the menu on left select 'Pages'
    * From the source section drop-down menu, select the Branch: main
    * Click 'Save'
@@ -312,7 +312,6 @@ This page contains 4 sections:
 
    * Click on the code drop down button
    * Click on HTTPS
-   * Copy the repository link to the clipboard
    * Copy the repository link to the clipboard
    * Open your IDE of choice (git must be installed for the next steps)
    * Type git clone copied-git-url into the IDE terminal
