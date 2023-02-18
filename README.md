@@ -158,6 +158,7 @@ This page contains 4 sections:
    * Favicon files were created at this [Website](https://favicon.io/favicon-converter/)
 
 ---
+
 ## Existing features:
  * Responsive design
  * Contact and Signup page with success and respond page
@@ -235,11 +236,25 @@ This page contains 4 sections:
 #### 404 Error Page test:
 ![alt 404 Error page test](/assets/images/readme/lt-404.png)
 
+
 #### Wave Testing:
    * A Test was conducted using the Web Accessibbility Evaluation Tool(WAVE) and no errors and no issues with contrasts were found. This was important to ensure that the web content is more accessible to users with disadvantages.
 ![alt WAVE test](/assets/images/readme/wave-test.png)   
 
+#### Responsiveness:
+   * All the pages were tested on screen sizes from 320px upwards on 
+      * Chrome, 
+      * safari and 
+      * Firefox. 
+      
+      Website was responsive in all screen sizes. All the pages displayed as expected.
+   * Website was also opened 
+     * Iphone 12 
+     * Iphone 11 and 
+     * Samsung Galaxy s10 
+     * Ipad Pro.
 
+     There were no responsive issues seen.
 #### Navigation Link Test
   * All the Navigation links has been tested and they navigate the user to the right pages as expected. 
   
