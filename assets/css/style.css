@@ -52,7 +52,7 @@ nav img {
     padding: 8px 12px;
     position: relative;
 }
-/* animate a line underneath navigation links */
+/* Animate a line underneath navigation links */
 .navigation-links ul li::after {
     content: '';
     width: 0%;
@@ -87,7 +87,7 @@ nav img {
     font-style: italic;
     margin-top: 80px;
 }
-/* Button for Index and Contact Us page  */
+/* Button for Index and Contact Us page */
 .contact-btn {
     display: inline-block;
     text-decoration: none;
@@ -99,13 +99,13 @@ nav img {
     cursor: pointer;
     transition: 1s;
 }
-/*Animation for the button on hover*/
+/* Animation for the button on hover */
 .contact-btn:hover {
     border: 2px solid rgb(85, 10, 117);
     background: rgb(192, 161, 206);
 }
 
-/* Testimonial Part*/
+/* Testimonial Part */
 
 .customer-feedback {
     width: 80%;
@@ -136,7 +136,7 @@ nav img {
     box-sizing: border-box;
     transition: .5s;
 }
-/* animation for the box on hover*/
+/* Animation for the box on hover*/
 .feedback-entry:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -147,7 +147,7 @@ nav img {
     
 }
 
-/* footer */
+/* Footer */
 
 .footer-text {
     display: flex;
@@ -247,7 +247,7 @@ nav img {
     padding-bottom: 3%;
 
 }
-/*  classes Page */
+/* Classes Page */
 /* Yoga part */
 .our-yoga-styles > p {
     width: 80%;
@@ -283,7 +283,7 @@ nav img {
     transition: .5s;
     padding-bottom: 30px;
 }
-/* animation for the box on hover*/
+/* Animation for the box on hover*/
 .yoga-style:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.474);
 }
@@ -326,7 +326,7 @@ nav img {
     transition: .5s;
     padding-bottom: 30px;
 }
-/*Animation for the box on hover*/
+/* Animation for the box on hover */
 .teacher-details:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.474);
 }
@@ -345,7 +345,7 @@ nav img {
     margin: auto;
 }
 
-/* Time Table*/
+/* Time Table */
 .schedule h2 {
     color: rgb(44, 9, 59);
     text-align: center;
@@ -390,13 +390,13 @@ nav img {
     transition: 1s;
     border-radius: 10px;
 }
-/*Animation for the button*/
+/* Animation for the button */
 .sign-up-btn:hover {
     border: 2px solid rgb(85, 10, 117);
     background: rgb(192, 161, 206);
 }
 
-/*  formdump Page*/
+/* Formdump Page*/
 .formdump-header-background-image {
     background: url(../images/hero-image.jpeg);
     background-size: cover;
@@ -414,7 +414,7 @@ nav img {
     font-size: 2rem;
 }
 
-/* 404 Error Page*/
+/* 404 Error Page */
 
 .error-404{
     text-align: center;
@@ -442,8 +442,7 @@ nav img {
 }
 
 
-/* Media Queries for medium screen( max screen size 950px           */
-
+/* Media Queries for medium screen( max screen size 950px */
 
 @media screen and (max-width: 950px){
     .navigation-links ul li a {
@@ -465,7 +464,8 @@ nav img {
         column-count: 2;
     }
 }
-/*Media queries for small screen (max screen size 800px)*/
+/* Media queries for small screen (max screen size 800px) */
+
 @media screen and (max-width: 800px){    
     .feedback {
         flex-direction: column;
